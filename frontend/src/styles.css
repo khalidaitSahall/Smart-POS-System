@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { font-family: Tahoma, Arial, sans-serif; color: #172033; background: #f4f7fb; font-synthesis: none; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+.app-shell { max-width: 1100px; margin: 0 auto; padding: 32px 24px 24px; }
+.topbar { display: flex; align-items: center; gap: 14px; margin-bottom: 32px; }
+.brand-mark { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 15px; background: #0f172a; color: white; font-weight: 800; }
+h1, h2, p { margin: 0; }
+.topbar h1 { font-size: 19px; }
+.topbar p, .welcome-card p:not(.eyebrow) { margin-top: 5px; color: #64748b; font-size: 14px; }
+.web-badge { margin-right: auto; padding: 8px 12px; border-radius: 999px; background: #e0f2fe; color: #0369a1; font-size: 13px; }
+.welcome-card { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 30px; border-radius: 22px; background: white; box-shadow: 0 8px 30px #1720330b; }
+.eyebrow { margin-bottom: 8px; color: #2563eb; font-size: 12px; font-weight: 700; }
+.welcome-card h2 { font-size: clamp(21px, 4vw, 29px); }
+.welcome-card p:not(.eyebrow) { max-width: 650px; line-height: 1.8; }
+.welcome-icon { font-size: 48px; }
+.section-heading { display: flex; justify-content: space-between; align-items: center; margin: 32px 0 14px; }
+.section-heading h2 { font-size: 20px; }
+.count-pill { padding: 7px 12px; border-radius: 999px; background: #e8eef8; color: #475569; font-size: 13px; }
+.notice, .table-wrap { padding: 20px; border: 1px solid #e5eaf2; border-radius: 16px; background: white; color: #64748b; }
+.notice.error { border-color: #fecaca; color: #b91c1c; }
+.table-wrap { overflow-x: auto; padding: 0; }
+table { width: 100%; border-collapse: collapse; text-align: right; }
+th, td { padding: 15px 18px; border-bottom: 1px solid #eef2f7; white-space: nowrap; }
+th { color: #64748b; font-size: 13px; font-weight: 600; }
+tbody tr:last-child td { border-bottom: 0; }
+.product-name { color: #172033; font-weight: 700; }
+footer { padding: 28px 0 0; color: #94a3b8; font-size: 12px; text-align: center; }
+@media (max-width: 600px) { .app-shell { padding: 20px 14px; } .welcome-card { padding: 22px; } .welcome-icon { display: none; } }
