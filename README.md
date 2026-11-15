@@ -25,10 +25,11 @@
 
 ## 🧱 التقنية المستخدمة (Tech Stack)
 
-- **Frontend:** React.js + Tailwind CSS.
-- **Desktop:** Electron.js أو Tauri.
-- **Backend:** Node.js (Express / NestJS) أو Python (FastAPI).
-- **Database:** SQLite للعمل المحلي، وPostgreSQL للمزامنة أو الاستخدام متعدد الأجهزة.
+- **Frontend:** JavaScript، React.js، وTailwind CSS.
+- **Desktop:** Electron.js.
+- **Backend:** Node.js وExpress.js.
+- **Database محلياً:** SQLite لدعم العمل دون اتصال.
+- **المزامنة المستقبلية:** PostgreSQL عند دعم المزامنة أو تعدد الأجهزة.
 
 ## 📁 هيكل المشروع
 
